@@ -1,4 +1,4 @@
-.header{
+.header {
   width: 100%;
   height: 120px;
   display: flex;
@@ -6,7 +6,7 @@
   color: white;
 }
 
-.header-nav{
+.header-nav {
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -14,20 +14,20 @@
   align-items: center;
 }
 
-.header-nav-logo-section{
+.header-nav-logo-section {
   display: flex;
   gap: 0 20px;
   align-items: center;
   cursor: pointer;
 }
 
-.header-nav-logo-section p{
+.header-nav-logo-section p {
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.header-nav-menu-list li{
+.header-nav-menu-list li {
   display: inline-block;
   margin: 0 20px;
   text-transform: capitalize;
@@ -35,54 +35,7 @@
   cursor: pointer;
 }
 
-.header-nav-right{
+.header-nav-right {
+  display: none;
   cursor: pointer;
-}
-
-/* Tablet styles */
-@media (min-width: 600px) {
-  .header-nav {
-    flex-wrap: nowrap;
-    padding: 20px 0;
-  }
-
-  .header-nav-logo-section p {
-    font-size: 24px;
-  }
-
-  .header-nav-menu {
-    display: flex; /* Show menu on tablets */
-    justify-content: center;
-  }
-
-  .header-nav-right {
-    display: none; /* Hide burger menu icon on tablets */
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 768px) {
-  .header {
-    height: 120px;
-  }
-
-  .header-nav {
-    padding: 40px 0;
-  }
-
-  .header-nav-logo-section {
-    gap: 0 20px;
-  }
-
-  .header-nav-logo-section p {
-    font-size: 28px;
-  }
-
-  .header-nav-menu-list li {
-    margin: 0 20px;
-  }
-
-  .header-nav-right {
-    display: none; /* Ensure burger menu icon is hidden on desktop */
-  }
 }
