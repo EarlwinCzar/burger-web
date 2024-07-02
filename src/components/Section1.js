@@ -11,7 +11,7 @@ import "../styles/section1.css";
 
 function Section1() {
   return (
-    <section className="section1 container">
+    <section className="section1 container section">
       <article className="section1-article">
         <div className="section1-article-cards">
           <div className="section1-article-card1">

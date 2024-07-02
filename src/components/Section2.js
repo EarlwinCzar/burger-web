@@ -11,7 +11,7 @@ import carrow from "../assets/carrow.png";
 
 function Section2() {
   return (
-    <section className="section2 container">
+    <section className="section2 container section">
       <article className="section2-article">
         <div className="section2-article-container-header">
           <p className="section2-article-container-header-head">

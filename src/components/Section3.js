@@ -4,7 +4,7 @@ import dburgers from "../assets/dburgers.png";
 
 function Section3() {
   return (
-    <section className="section3 container">
+    <section className="section3 container section">
       <article className="section3-article">
         <div className="section3-article-left">
           <p className="section3-article-left-desc">Get Up To</p>
@@ -15,7 +15,7 @@ function Section3() {
           <button>Order Now</button>
         </div>
         <div className="section3-article-right">
-          <img src={dburgers} />
+          <img className="section3-burger" src={dburgers} />
         </div>
       </article>
     </section>

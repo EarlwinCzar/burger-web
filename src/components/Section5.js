@@ -8,7 +8,7 @@ import carrow3 from "../assets/carrow3.png";
 
 function Section5() {
   return (
-    <section className="section5 container">
+    <section className="section5 container section">
       <article className="section5-article">
         <div className="section5-article-header">
           <p>&#8212; how does it work &#8212;</p>

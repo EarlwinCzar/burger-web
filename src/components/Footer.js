@@ -5,9 +5,9 @@ import carrow3 from "../assets/carrow3.png";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-container container">
-        <div className="footer-container-details">
+    <footer className="footer container section">
+      <div className="footer-container ">
+        <div className="footer-container-details ">
           <div className="footer-container-details-1">
             <div className="footer-container-details-1-head">
               <img src={aheadlogo} />

@@ -1,12 +1,12 @@
-.section6{
+.section6 {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 1080px;
   display: flex;
   justify-content: center;
 }
 
-.section6-article{
+.section6-article {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,14 +15,14 @@
   gap: 70px;
 }
 
-.section6-article-head{
+.section6-article-head {
   color: white;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 35px;
 }
 
-.section6-article-cards{
+.section6-article-cards {
   display: flex;
   gap: 100px;
   text-align: center;
@@ -31,9 +31,9 @@
   margin: 20px 0;
 }
 
-.section6-article-card{
+.section6-article-card {
   background-color: white;
-  color: #FFAF68;
+  color: #ffaf68;
   width: 908px;
   height: 476px;
   display: flex;
@@ -44,31 +44,31 @@
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
 }
 
-.section6-article-card img{
-  background-color: #FFAF68;
+.section6-article-card img {
+  background-color: #ffaf68;
   padding: 25px;
   border-radius: 50%;
 }
 
-.section6-article-card-desc{
+.section6-article-card-desc {
   font-size: 24px;
 }
 
-.section6-article-card-foot{
+.section6-article-card-foot {
   margin-top: 20px;
   font-size: 24px;
 }
 
-.section6-article-card-foot-stars{
+.section6-article-card-foot-stars {
   font-size: 50px;
 }
 
-.section6-article-buttons{
+.section6-article-buttons {
   display: flex;
   gap: 50px;
 }
 
-.section6-article-buttons button{
+.section6-article-buttons button {
   border: white solid 3px;
   padding: 0px 20px;
   font-size: 40px;
@@ -79,8 +79,7 @@
   cursor: pointer;
 }
 
-.section6-article-buttons button:hover{
-  color: #FFAF68;
+.section6-article-buttons button:hover {
+  color: #ffaf68;
   background-color: white;
 }
-

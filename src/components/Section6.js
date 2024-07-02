@@ -4,7 +4,7 @@ import gquote from "../assets/gquote.png";
 
 function Section6() {
   return (
-    <section className="section6 container">
+    <section className="section6 container section">
       <article className="section6-article">
         <div className="section6-article-head">
           <p>&#8212; what our customer says &#8212;</p>

@@ -1,15 +1,15 @@
 .section3 {
   width: 100%;
-  height: 60vh;
+  height: 648px;
   display: flex;
   justify-content: center;
   background-color: #f47200;
 }
 
 .section3-article {
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .section3-article-left {
@@ -52,8 +52,39 @@
 }
 
 .section3-article-right {
-  position: relative;
-  top: 70px;
   display: flex;
-  align-items: center;
+}
+
+.section3-burger {
+  max-width: 100%;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (max-width: 1023px) {
+  .section3-article-right {
+    display: none;
+  }
+  .section3-article-left {
+    text-align: center;
+  }
+}
+
+/* xl */
+@media (max-width: 1279px) {
+}
+
+/* 2xl */
+@media (max-width: 1535px) {
 }
